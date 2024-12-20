@@ -1,0 +1,23 @@
+footer {
+    margin: 0;
+    padding: 0;
+    height: 209px;
+    width: 100%;
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      filter: brightness(0) invert(1);
+      width: 8%;
+      margin-top: 2%;
+    }
+
+    p {
+      color: white;
+      font-size: 24px;
+    }
+  }

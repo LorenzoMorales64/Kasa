@@ -12,6 +12,7 @@ import { About } from './page/about/About';
 import { Gallery } from './page/gallery/Gallery';
 import { CardsPage } from './page/cardsPages/CardsPage';
 import { Error404 } from './page/error/Error404';
+import Footer from "./components/footer/Footer"
 
 export const App: React.FC = () => {
   return (
@@ -39,10 +40,7 @@ export const App: React.FC = () => {
        </Routes>
 
      </Router>
-           <footer>
-           <img src={logo} alt="logo" />
-           <p>© 2020 Kasa. All rights reserved</p>
-         </footer>
+          <Footer/>
          </>
   );
 };

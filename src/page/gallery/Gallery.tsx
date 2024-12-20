@@ -3,6 +3,7 @@ import mainBanner from "../../assets/images/homeBanner.png";
 import "./Gallery.scss";
 import cards_data from "../../data/logement.json";
 import { Link } from "react-router-dom";
+import Banner from "../../components/banner/Banner"
 
 export interface CardData {
    id: string
@@ -24,7 +25,7 @@ export const Gallery: React.FC = () => {
     return (
         <div className="gallery">
             <div className="mainBanner">
-                <img src={mainBanner} alt="Photo de mer" />
+                <Banner imageSrc={mainBanner} altText="Bannière montagne page accueil" className="mainBanner"/>
                 <h1>Chez vous, partout et ailleurs</h1>
             </div>
             <div className="cards-container">
